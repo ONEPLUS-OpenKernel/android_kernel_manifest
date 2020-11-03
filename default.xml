@@ -16,7 +16,7 @@
     remote="ONEPLUS-OS" sync-j="4" />
   
   <project path="private/msm-oneplus" name="android_kernel_msm" groups="partner" />
-  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor" name="android_kernel_msm-extra_devicetree " groups="partner" />
+  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor" name="android_kernel_msm-extra_devicetree" groups="partner" />
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/camera" name="android_kernel_msm-extra_camera-devicetree" groups="partner" />
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/display" name="android_kernel_msm-extra_display-devicetree" groups="partner" />
   
