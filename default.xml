@@ -15,12 +15,11 @@
   <default revision="android-oneplus-lito-4.19-android10"
     remote="ONEPLUS-OS" sync-j="4" />
   
-  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor" name="kernel/msm-extra/devicetree" groups="partner" />
-  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" />
-  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" groups="partner" />
+  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor" name="android_kernel_msm-extra_devicetree " groups="partner" />
+  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/camera" name="android_kernel_msm-extra_camera-devicetree" groups="partner" />
+  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/display" name="android_kernel_msm-extra_display-devicetree" groups="partner" />
   
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" remote="aosp"  />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" remote="aosp"  />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="partner" remote="aosp"  />
   <project path="prebuilts-master/misc" name="platform/prebuilts/misc" clone-depth="1" groups="partner" remote="aosp"  />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" remote="aosp"  />
