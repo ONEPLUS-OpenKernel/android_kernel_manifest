@@ -8,7 +8,7 @@
     fetch="https://source.codeaurora.org/quic/la/"
     revision="LA.UM.8.13.r1" />
     
-  <remote  name="aosp"
+  <remote name="aosp"
     fetch="https://android.googlesource.com/"
     revision="refs/tags/android-10.0.0_r47" />
   
@@ -19,12 +19,12 @@
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" />
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" groups="partner" />
   
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="partner" />
-  <project path="prebuilts-master/misc" name="platform/prebuilts/misc" clone-depth="1" groups="partner" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
-  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="partner" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="partner" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" remote="aosp"  />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" remote="aosp"  />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="partner" remote="aosp"  />
+  <project path="prebuilts-master/misc" name="platform/prebuilts/misc" clone-depth="1" groups="partner" remote="aosp"  />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" remote="aosp"  />
+  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master" remote="aosp"  />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="partner" remote="aosp"  />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="partner" remote="aosp" />
 </manifest> 
