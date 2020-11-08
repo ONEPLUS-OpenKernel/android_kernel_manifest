@@ -20,6 +20,7 @@
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/camera" name="android_kernel_camera-devicetree" groups="partner" />
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/display" name="android_kernel_display-devicetree" groups="partner" />
   
+  <project path="private/msm-oneplus/techpack/audio" name="android_kernel_audio" groups="partner" />
   <project path="private/msm-oneplus/techpack/camera" name="android_kernel_camera" groups="partner" />
   <project path="private/msm-oneplus/techpack/display" name="android_kernel_display-drivers" groups="partner" />
   <project path="private/msm-oneplus/techpack/video" name="android_kernel_video-driver" groups="partner" />
