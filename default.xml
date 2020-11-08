@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="ONEPLUS-OS"
-    fetch="https://github.com/ONEPLUS-OpenSources/" />
+  <remote name="ONEPLUS-OK"
+    fetch="https://github.com/ONEPLUS-OpenKernel/" />
   
   <remote name="caf"
     fetch="https://source.codeaurora.org/quic/la/"
@@ -13,7 +13,7 @@
     revision="refs/tags/android-10.0.0_r47" />
   
   <default revision="android-oneplus-lito-4.19-android10"
-    remote="ONEPLUS-OS" sync-j="4" />
+    remote="ONEPLUS-OK" sync-j="4" />
   
   <project path="private/msm-oneplus" name="android_kernel_msm" groups="partner" />
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor" name="android_kernel_devicetree" groups="partner" />
