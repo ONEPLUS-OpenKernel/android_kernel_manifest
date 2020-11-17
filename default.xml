@@ -6,7 +6,7 @@
   
   <remote name="caf"
     fetch="https://source.codeaurora.org/quic/la/"
-    revision="LA.UM.8.13.r1-10600-SAIPAN.0" />
+    revision="refs/tags/LA.UM.8.13.r1-10600-SAIPAN.0" />
     
   <remote name="aosp"
     fetch="https://android.googlesource.com/"
