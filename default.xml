@@ -6,7 +6,7 @@
   
   <remote name="caf"
     fetch="https://source.codeaurora.org/quic/la/"
-    revision="LA.UM.8.13.r1" />
+    revision="LA.UM.8.13.r1-10600-SAIPAN" />
     
   <remote name="aosp"
     fetch="https://android.googlesource.com/"
@@ -31,6 +31,11 @@
   <project path="private/msm-oneplus/techpack/oneplus-input" name="android_kernel_input_oneplus" groups="partner" />
   <project path="private/msm-oneplus/techpack/oneplus-tristatekey" name="android_kernel_input_oneplus-tristatekey" groups="partner" />
   <project path="private/msm-oneplus/techpack/oneplus-vibrator" name="android_kernel_oneplus-vibrator" groups="partner" />
+  
+  <project path="private/msm-oneplus/techpack/qcacld-3.0" name="android_kernel_qcacld-3.0" groups="partner" />
+  <project path="private/msm-oneplus/techpack/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" groups="partner" remote="caf" />
+  <project path="private/msm-oneplus/techpack/qca-wifi-host-cmn" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" groups="partner" remote="caf" />
+  
   
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
