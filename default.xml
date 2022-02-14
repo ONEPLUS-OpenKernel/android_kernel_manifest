@@ -26,5 +26,5 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" remote="aosp" />
   <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" remote="aosp" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="partner" remote="aosp" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="partner" remote="aosp" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="96755e2ffffe500011eecd81b63eeaf2d484338e" clone-depth="1" groups="partner" remote="aosp" />
 </manifest> 
