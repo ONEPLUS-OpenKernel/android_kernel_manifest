@@ -16,25 +16,7 @@
     remote="ONEPLUS-OK" sync-j="4" />
   
   <project path="private/msm-oneplus" name="android_kernel_msm" groups="partner" />
-  <project path="private/msm-oneplus/arch/arm64/configs/oneplus" name="android_kernel_oneplus-configs" groups="partner" />  
   <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor" name="android_kernel_devicetree" groups="partner" />
-  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/camera" name="android_kernel_camera-devicetree" groups="partner" />
-  <project path="private/msm-oneplus/arch/arm64/boot/dts/vendor/qcom/display" name="android_kernel_display-devicetree" groups="partner" />
-  
-  <project path="private/msm-oneplus/techpack/audio" name="android_kernel_audio" groups="partner" />
-  <project path="private/msm-oneplus/techpack/camera" name="android_kernel_camera" groups="partner" />
-  <project path="private/msm-oneplus/techpack/data" name="android_kernel_data" groups="partner" />
-  <project path="private/msm-oneplus/techpack/display" name="android_kernel_display-drivers" groups="partner" />
-  <project path="private/msm-oneplus/techpack/video" name="android_kernel_video-driver" groups="partner" />
-  <project path="private/msm-oneplus/techpack/exfat" name="android_kernel_exfat" groups="partner" revision="master" />
-  <project path="private/msm-oneplus/techpack/nfc-nxp" name="android_kernel_nfc-nxp" groups="partner" />
-  <project path="private/msm-oneplus/techpack/oneplus-input" name="android_kernel_input_oneplus" groups="partner" />
-  <project path="private/msm-oneplus/techpack/oneplus-tristatekey" name="android_kernel_input_oneplus-tristatekey" groups="partner" />
-  <project path="private/msm-oneplus/techpack/oneplus-vibrator" name="android_kernel_oneplus-vibrator" groups="partner" />
-  
-  <project path="private/msm-oneplus/techpack/qcacld-3.0" name="android_kernel_qcacld-3.0" groups="partner" />
-  <project path="private/msm-oneplus/techpack/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" groups="partner" remote="caf" />
-  <project path="private/msm-oneplus/techpack/qca-wifi-host-cmn" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" groups="partner" remote="caf" />
   
   
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="android-11.0.0_r48" clone-depth="1" groups="partner" remote="aosp" />
